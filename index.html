@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis — Personal Assistant</title>
+<meta name="description" content="Jarvis is a private, single-user voice assistant that runs on its owner's own computer.">
+<style>
+  :root { --bg:#0b1210; --fg:#e6f2ec; --muted:#9db5aa; --accent:#34d399; --card:#121d19; --line:#1f2f29; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f6faf8; --fg:#10201a; --muted:#4b6359; --accent:#0f8a5f; --card:#ffffff; --line:#d9e6e0; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:56px 20px 64px; }
+  h1 { font-size:2.2rem; margin:0 0 4px; letter-spacing:-0.02em; }
+  .tag { color:var(--accent); font-weight:600; margin:0 0 28px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; }
+  p, li { color:var(--fg); }
+  .muted { color:var(--muted); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin:20px 0; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jarvis</h1>
+  <p class="tag">A private, single-user personal assistant</p>
+
+  <p>Jarvis is a voice-driven personal assistant that runs on its owner's own computer. It answers questions from the owner's notes, and helps with everyday work such as checking the calendar, summarising unread email, drafting replies and finding files.</p>
+
+  <div class="card">
+    <strong>Who can use it:</strong> Jarvis is a personal tool for one person, its owner. It is not offered to the public, there is no sign-up, and it has no other users.
+  </div>
+
+  <h2>Google account access</h2>
+  <p>With the owner's permission, Jarvis connects to the owner's own Google account in order to:</p>
+  <ul>
+    <li><strong>Gmail:</strong> read messages and create drafts. Jarvis does not send email on its own.</li>
+    <li><strong>Google Calendar:</strong> read events, and add or change events only when the owner asks.</li>
+    <li><strong>Google Sheets, Docs and Drive:</strong> find, read and create the owner's own files.</li>
+  </ul>
+  <p>How this data is handled is described in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:hervie.fajardo@gmail.com">hervie.fajardo@gmail.com</a></p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> · © 2026 Jarvis
+  </footer>
+</main>
+</body>
+</html>
